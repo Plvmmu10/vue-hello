@@ -13,9 +13,16 @@
     <title>VueHello</title>
 </head>
 <body>
+    
+    <div id="app">
+        <div v-bind:class="myClasses">
+            <h1>{{title}}</h1>
+            <img v-bind:src="image" alt="messina">
+        </div>
+        
+    </div>
 
-
-
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <script src="./script.js"></script>
 </body>
